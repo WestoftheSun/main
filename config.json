@@ -9,7 +9,7 @@
   },
   "text": {
     "more": "They show that there are 8 major groups that coauthor frequently within their own groups. The inter-group coauthorship is not uncommon, however relatively scarce compared to the numbers of that of intra-group. Larger group tends to have prominent figures who collaborate with a lot more people than other members of the group.\n\n[Tools I used]\nThe visualization was made with Gephi 0.9.1\nExported to Sigma.js by plugin by InteractiveVis project\nhttp://blogs.oii.ox.ac.uk/vis/\nhttps://github.com/oxfordinternetinstitute/InteractiveVis/",
-    "intro": "Coauthorship network of scientists working on network theory and experiment, as compiled by M. Newman in May 2006.\nAs a part of programming assignment 2, Data Visualization by University of Illinois at Urbana-Champaign\n\nEach node represents a network scientist.\nEach edge represents coauthorship between two scientists.\nThe size of nodes represent the number of edges connected to them.\nScientists were grouped by the frequency of their coauthorships, represented in each column along the radial graphs.\nOnly the major groups are coloured.\n\nClick below for more information\n",
+    "intro": "Coauthorship network of scientists working on network theory and experiment, as compiled by M. Newman in May 2006.\nAs a part of programming assignment 2, Data Visualization by University of Illinois at Urbana-Champaign.\n\nEach node represents a network scientist.\nEach edge represents coauthorship between two scientists.\nThe size of nodes represent the number of edges connected to them.\nScientists were grouped by the frequency of their coauthorships, represented in each column along the radial graphs.\nOnly the major groups are coloured.\n\nClick below for more information\n",
     "title": "Coauthorship network of scientists working on network theory and experiment"
   },
   "legend": {
@@ -40,10 +40,10 @@
       "defaultLabelSize": 14
     },
     "graphProperties": {
-      "maxEdgeSize": 0.5,
-      "minEdgeSize": 0.2,
+      "maxEdgeSize": 2.0,
+      "minEdgeSize": 1.8,
       "minNodeSize": 1,
-      "maxNodeSize": 7
+      "maxNodeSize": 9
     },
     "mouseProperties": {
       "maxRatio": 20,
